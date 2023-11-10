@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Hotel{
     private Reservation[] rooms;
     /*
@@ -14,7 +17,7 @@ public class Hotel{
       */
 
     public Hotel(int numRooms){
-        this.rooms = Reservation[numRooms];
+        this.rooms = new Reservation[numRooms];
         this.waitList = new ArrayList<String>();
     }
 
@@ -27,6 +30,7 @@ public class Hotel{
      */
     public Reservation requestRoom(String guestName){
         /*to be implemented in part (a) */
+        
     }
 
     /*
@@ -42,5 +46,11 @@ public class Hotel{
      */
     public Reservation cancelAndReassign(Reservation res){
         /* to be implemented in part (b) */
+    }
+
+
+
+    public void displayBookings(){
+        System.out.println(Arrays.toString(rooms));
     }
 }

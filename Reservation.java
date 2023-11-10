@@ -22,4 +22,8 @@ public class Reservation{
     public int getRoomNumber(){
         return this.roomNumber;
     }
+
+    public String toString(){
+        return guestName;
+    }
 }
