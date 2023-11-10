@@ -19,5 +19,6 @@ Write the Hotel method cancelAndReassign. Method cancelAndReassign releases a pr
 In writing cancelAndReassign you may call any accessible methods in the Reservation and Hotel classes. Assume that these methods work as specified.
 
 Complete method cancelAndReassign below.
+
 ![Reservation Class](assets/three.PNG)
  
